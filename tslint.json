@@ -34,6 +34,35 @@
     "react-a11y-titles": false,
 
     "export-name": false,
-    "no-http-string": false
+    "no-http-string": false,
+
+    "import-name": {
+      "underscore": "_",
+      "severity": "warning"
+    },
+
+    "max-func-body-length": {
+      "max-body-length": 100,
+      "max-func-body-length": 100,
+      "max-func-expression-body-length": 100,
+      "max-arrow-body-length": 100,
+      "max-method-body-length": 100,
+      "max-ctor-body-length": 100,
+      "ignore-comments": true,
+      "ignore-parameters-to-function-regex": "^describe$",
+      "severity": "warning"
+    },
+
+    "use-simple-attributes": {
+      "severity": "warning"
+    },
+
+    "promise-must-complete": {
+      "severity": "warning"
+    },
+
+    "no-backbone-get-set-outside-model": {
+      "severity": "warning"
+    }
   }
 }
