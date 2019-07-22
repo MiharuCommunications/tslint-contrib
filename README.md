@@ -4,6 +4,10 @@
 
 TSLint のルールセット
 
+## 概要
+
+[tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) のルールセットの設定です。
+
 
 ## 利用方法
 

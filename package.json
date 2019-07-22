@@ -1,6 +1,6 @@
 {
   "name": "@miharu/tslint-contrib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A set of TSLint rules",
   "main": "tslint.json",
   "scripts": {
