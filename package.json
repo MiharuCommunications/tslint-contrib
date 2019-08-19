@@ -1,9 +1,10 @@
 {
   "name": "@miharu/tslint-contrib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A set of TSLint rules",
   "main": "tslint.json",
   "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -14,11 +15,18 @@
     "microsoft",
     "typescript"
   ],
+  "files": [
+    "LICENSE",
+    "tslint.json",
+    "README.md"
+  ],
   "author": "inahata",
   "license": "MIT",
   "dependencies": {
     "tslint-microsoft-contrib": "^6.1.1"
   },
   "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
   }
 }
