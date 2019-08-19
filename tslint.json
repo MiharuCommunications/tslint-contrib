@@ -3,6 +3,59 @@
     "tslint-microsoft-contrib/recommended"
   ],
   "rules": {
+    "no-function-expression": {
+      "severity": "error"
+    },
+    "no-var-keyword": {
+      "severity": "error"
+    },
+    "triple-equals": {
+      "severity": "error"
+    },
+    "array-type": {
+      "options": "array",
+      "severity": "error"
+    },
+    "arrow-return-shorthand": {
+      "options": "multiline",
+      "severity": "error"
+    },
+    "semicolon": {
+      "options": "always",
+      "severity": "error"
+    },
+    "whitespace": {
+      "options": [
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-module",
+        "check-separator",
+        "check-rest-spread",
+        "check-type",
+        "check-typecast",
+        "check-type-operator",
+        "check-preblock",
+        "check-postbrace"
+      ],
+      "severity": "error"
+    },
+    "no-irregular-whitespace": {
+      "severity": "error"
+    },
+    "jsdoc-format": {
+      "severity": "error"
+    },
+    "encoding": {
+      "severity": "error"
+    },
+    "comment-format": {
+      "options": ["check-space"],
+      "severity": "error"
+    },
+
+
+
     "no-relative-imports": false,
     "react-this-binding-issue": [
       true,
