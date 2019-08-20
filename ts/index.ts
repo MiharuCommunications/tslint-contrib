@@ -20,3 +20,6 @@ const l = () => {
 export function test() {
 
 };
+
+
+const m = <number>undefined;
