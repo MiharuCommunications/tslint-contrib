@@ -18,7 +18,7 @@
     },
     "arrow-return-shorthand": {
       "options": "multiline",
-      "severity": "error"
+      "severity": "none"
     },
     "semicolon": {
       "options": "always",
@@ -50,6 +50,9 @@
     "comment-format": {
       "options": ["check-space"],
       "severity": "error"
+    },
+    "no-jquery-raw-elements": {
+      "severity": "warning"
     },
 
 
