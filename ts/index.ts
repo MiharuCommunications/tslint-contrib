@@ -23,3 +23,21 @@ export function test() {
 
 
 const m = <number>undefined;
+
+
+export class MyClass {
+    private _privateMember = 0;
+
+    constructor() {
+    }
+
+
+    public method(): void {
+    }
+
+
+
+    public static create(): MyClass {
+        return new MyClass();
+    }
+}
