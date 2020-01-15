@@ -8,14 +8,12 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@master
-      - name: Use Node.js 10.x
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
         with:
-          version: 10.x
-      - name: Publish
+          ref: ${{ github.ref }}
+      - name: publish
         uses: actions/npm@master
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

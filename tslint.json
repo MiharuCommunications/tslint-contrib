@@ -3,10 +3,61 @@
     "tslint-microsoft-contrib/recommended"
   ],
   "rules": {
+    "eofline": {
+      "severity": "error"
+    },
+    "indent": {
+      "options": ["spaces", 4],
+      "severity": "error"
+    },
+    "linebreak-style": {
+      "options": "LF",
+      "severity": "error"
+    },
+    "no-arg": {
+      "severity": "error"
+    },
+    "no-bitwise": {
+      "severity": "warning"
+    },
+    "no-duplicate-super": {
+      "severity": "error"
+    },
+    "no-empty": {
+      "options": ["allow-empty-catch", "allow-empty-functions"],
+      "severity": "error"
+    },
+    "no-eval": {
+      "severity": "error"
+    },
     "no-function-expression": {
       "severity": "error"
     },
+    "no-invalid-this": {
+      "options": ["check-function-in-method"],
+      "severity": "warning"
+    },
+    "no-string-throw": {
+      "severity": "error"
+    },
+    "no-switch-case-fall-through": {
+      "severity": "error"
+    },
+    "no-unsafe-finally": {
+      "severity": "error"
+    },
+    "no-unused-expression": {
+      "options": [
+        "allow-fast-null-checks",
+        "allow-new",
+        "allow-tagged-template"
+      ],
+      "severity": "error"
+    },
     "no-var-keyword": {
+      "severity": "error"
+    },
+    "radix": {
       "severity": "error"
     },
     "triple-equals": {

@@ -1,6 +1,7 @@
 
 
 var f=function() {
+	var i = 0;
     return 1;
 };
 
@@ -18,7 +19,7 @@ const l = () => {
 
 */
 export function test() {
-
+    this.props;
 };
 
 
@@ -33,6 +34,13 @@ export class MyClass {
 
 
     public method(): void {
+        const f = function() {
+            const i = this._privateMember;
+        };
+
+        const a = () => {
+            const i = this._privateMember;
+        };
     }
 
 
