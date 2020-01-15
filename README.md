@@ -30,3 +30,9 @@ yarn add @miharu/tslint-contrib --dev
   }
 }
 ```
+
+
+## 参考資料
+
++ [TSLint core rules](https://palantir.github.io/tslint/rules/)
++ [microsoft/tslint-microsoft-contrib: A set of TSLint rules used on some Microsoft projects.](https://github.com/Microsoft/tslint-microsoft-contrib)
