@@ -17,6 +17,7 @@
     "no-arg": {
       "severity": "error"
     },
+    "no-backbone-get-set-outside-model": false,
     "no-bitwise": {
       "severity": "warning"
     },
@@ -177,9 +178,6 @@
       "severity": "warning"
     },
 
-    "no-backbone-get-set-outside-model": {
-      "severity": "warning"
-    },
 
     "mocha-avoid-only": false,
     "mocha-no-side-effect-code": false,
