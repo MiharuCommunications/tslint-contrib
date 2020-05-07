@@ -4,6 +4,11 @@
 
 TSLint のルールセット
 
+:warning: __TSLint is deprecated.__
+
+> [MiharuCommunications/eslint-config](https://github.com/MiharuCommunications/eslint-config) もしくは[MiharuCommunications/eslint-config-with-react](https://github.com/MiharuCommunications/eslint-config-with-react) に移行してください。
+
+
 ## 概要
 
 [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) のルールセットの設定です。
